@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>media-slideshow-component example</title>
+
+  <script type="module" src="/build/mediaslideshowcomponent.esm.js"></script>
+  <script nomodule src="/build/mediaslideshowcomponent.js"></script>
+
+  <style>
+
+    h1 {
+      text-align: center;
+    }
+
+    .show-container {
+      width: 600px;
+      height: 400px;
+      margin: auto;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <h1>Media Slideshow Component</h1>
+  <div class="show-container">
+    <media-slideshow source-urls="https://picsum.photos/480/640
+                                  https://picsum.photos/640/480
+                                  https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4
+                                  https://picsum.photos/100/200
+                                  https://picsum.photos/1900/1200
+                                  https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_1280_10MG.mp4
+                                  https://picsum.photos/300/1200
+                                  https://picsum.photos/300/300">
+    </media-slideshow>
+  </div>
+
+</body>
+</html>
